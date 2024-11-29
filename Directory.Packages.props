@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	  <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.2.0.71021" />
+	  <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+	  <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+	  <PackageVersion Include="Microsoft.Extensions.Http" Version="9.0.0" />
+	  <PackageVersion Include="Microsoft.Extensions.Http.Polly" Version="9.0.0" />
+	  <PackageVersion Include="Polly" Version="8.5.0" />
+  </ItemGroup>
+</Project>
